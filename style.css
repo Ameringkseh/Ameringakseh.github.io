@@ -1,0 +1,143 @@
+/* Reset dasar untuk menjaga konsistensi di berbagai browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya dasar untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Bagian umum */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Pengalaman */
+section#experience ul {
+    list-style-type: none;
+}
+
+section#experience ul li {
+    margin-bottom: 20px;
+}
+
+section#experience ul li h3 {
+    font-size: 1.3em;
+    color: #2980b9;
+}
+
+/* Keterampilan */
+section#skills ul {
+    list-style-type: none;
+}
+
+section#skills ul li {
+    margin-bottom: 10px;
+}
+
+section#skills ul li::before {
+    content: '•';
+    color: #2980b9;
+    margin-right: 10px;
+}
+
+/* Portofolio */
+section#portfolio ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section#portfolio ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Form kontak */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1f618d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
